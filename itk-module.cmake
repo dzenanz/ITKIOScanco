@@ -10,7 +10,7 @@ file(READ "${MY_CURRENT_DIR}/README.rst" DOCUMENTATION)
 
 # define the dependencies of the include module and the tests
 itk_module(IOScanco
-  PRIVATE_DEPENDS
+  DEPENDS
     ITKIOImageBase
   TEST_DEPENDS
     ITKTestKernel
